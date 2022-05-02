@@ -1,10 +1,10 @@
 1. CPU와 외부 장치들을 연결하는 버스의 개요와 GPIO에 대해서 설명하시오.
-  1) 시스템 버스 : CPU와 외부 장치들이 서로 통신을 위해 사용되는 통로.
-  - Address Bus : 주소 지정할 떄 사용되는 통로
-  - Data Bus : 주고받는 데이터를 위한 통로
-  - Control Bus : 이들 사이에 제어가 필요할 떄 사용되는 통로
-  => CPU에서 메모리에 데이터를 읽거나 쓰기 위해 Address Bus를 통해서 주소 지정 -> Control Bus를 통해 입출력 방향 설정 -> 데이터 버스를 통해 실제 데이터 주고받음.
-  2) GPIO(General Purpose Input/Output) : 일반적인 입출력을 위한 포트로 외부 하드웨어의 연결을 위해 사용됨. 라즈베리파이에서 GPIO는 AMBA(Advanced Microcontroller Bus Architecture)의 SoC(System-on-a-chip) 퍼리퍼럴에 연결되어 있다.
+   - 시스템 버스 : CPU와 외부 장치들이 서로 통신을 위해 사용되는 통로.
+    - Address Bus : 주소 지정할 떄 사용되는 통로
+    - Data Bus : 주고받는 데이터를 위한 통로
+    - Control Bus : 이들 사이에 제어가 필요할 떄 사용되는 통로
+    => CPU에서 메모리에 데이터를 읽거나 쓰기 위해 Address Bus를 통해서 주소 지정 -> Control Bus를 통해 입출력 방향 설정 -> 데이터 버스를 통해 실제 데이터 주고받음.
+   -  GPIO(General Purpose Input/Output) : 일반적인 입출력을 위한 포트로 외부 하드웨어의 연결을 위해 사용됨. 라즈베리파이에서 GPIO는 AMBA(Advanced Microcontroller Bus Architecture)의 SoC(System-on-a-chip) 퍼리퍼럴에 연결되어 있다.
 
 2. 라즈베리 파이의 각 모델들의 포트 수와 GPIO 에 대해서 설명하시오.
   - A+/B+ 이후 모델들은 40개 단자에 26개의 GPIO 포트 제공. 40핀 중 26핀은 이전 모델인 모델 B와 호환성을 제공한다.
